@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70vw;
+    color: grey;
+}
+
+header {
+    background-color: greenyellow;
+    height: 15vh;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: row;
+    height:70vh;
+}
+
+nav, aside{
+    background-color: bisque;
+    flex-grow: 1;
+}
+
+article {
+    background-color: beige;
+    flex-grow: 2;
+}
+
+footer {
+    background-color: yellow;
+    height: 10vh;
+}
